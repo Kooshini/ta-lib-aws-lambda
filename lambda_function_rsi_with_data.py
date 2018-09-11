@@ -4,7 +4,7 @@ from talib import abstract
 
 def lambda_handler(event, context):
     # Price data from BTC-USD 5m (close) last RSI value is 02:35:00 11/09/2018 (UK Format) UTC
-	pricedata = np.array(
+    pricedata = np.array(
         [6424.70000000000000000000,
          6420.00000000000000000000,
          6430.90000000000000000000,
